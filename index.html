@@ -4,79 +4,84 @@
 <head>
   <meta charset="utf-8">
   <title>Cats of Campus</title>
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
   <header id="header">
+    <div class="overlay">
+      <div class="main-content headerdiv">
 
-    <img src="images/banner.jpg" alt="cat banner">
-    <h1>Cats of Campus</h1>
 
-    <ul class="navcats">
-      <li><a href="#gingerbell">Gingerbell</a></li>
-      <li><a href="#boss">Boss</a></li>
-      <li><a href="#solo">Solo</a></li>
-    </ul>
+        <h1 class="navHead">Cats of Campus</h1>
+
+        <ul class="navcats">
+          <li class="navlist"><a href="#gingerbell">Gingerbell</a></li>
+          <li class="navlist"><a href="#boss">Boss</a></li>
+          <li class="navlist"><a href="#solo">Solo</a></li>
+        </ul>
+      </div>
+    </div>
 
   </header>
-  <hr>
-  <div id="main">
-    <br>
-    <br>
-    <div id="gingerbell">
-      <div>
-        <h3>Gingerbell</h3>
-        <h5>Orange is the new black</h5>
-        <p>The friendliest of all. Gingerbell loves making new friends. So dont forget to stop by to introduce yourself.
+
+  <div class="main-body">
+    <div id="gingerbell" class="main-content imgdiv">
+      <img src="images/gingerbell.png" alt="gingerbell">
+      <div class="catText textRight">
+        <h2 class="catHead">Gingerbell</h2>
+        <h5 class="catSubtitle">Orange is the new black</h5>
+        <p class="catDescription">The friendliest of all. Gingerbell loves making new friends. So dont forget to stop by
+          to introduce yourself. You might find her in the highlines forming a gang.
         </p>
       </div>
-      <img src="images/gingerbell.png" alt="gingerbell">
-
     </div>
-    <hr>
-    <br>
-    <br>
 
     <div id="boss">
+      <div class="main-content imgdiv">
 
-      <div>
-        <h3>Boss</h3>
-        <h5>He's the boss around here</h5>
-        <p>The boss cat making sure that all the cats are treated well. He has a surprised look at newcomers but gets
-          friendlier as he gets to know you better.</p>
+        <div>
+          <h2 class="catHead2">Boss</h2>
+          <h5 class="catSubtitle2">He's the boss around here</h5>
+          <p class="catDescription2">The boss cat making sure that all the cats are treated well. He has a surprised
+            look at newcomers but gets
+            friendlier as he gets to know you better.</p>
+        </div>
+        <img class="catimg" src="images/boss.png" alt="boss">
       </div>
-      <img src="images/boss.png" alt="boss">
     </div>
-    <hr>
-    <br>
-    <br>
-    <div id="solo">
+
+    <div id="solo" class="imgdiv main-content">
+      <img class="catimg" src="images/solo.png" alt="solo">
       <div>
-        <h3>Solo</h3>
-        <h5>Just try to spot me!</h5>
-        <p>Solo's favoirite things:</p>
-        <ol>
-          <li>Wander around the halls of NYUAD alone</li>
-          <li>Scare away students who stay up late night</li>
-          <li>Keep the campus clean by keeping rats away</li>
-        </ol>
+        <h2 class="catHead">Solo</h2>
+        <h5 class="catSubtitle">Just try to spot me!</h5>
+        <p class="catDescription">Solo's favorite things:
+        <ul class="catDescription">
+          <li>- Wander around the halls of NYUAD alone</li>
+          <li>- Scare away students who stay up late night</li>
+          <li>- Keep the campus clean by keeping rats away</li>
+        </ul>
+        </p>
       </div>
-      <img src="images/solo.png" alt="solo">
+
 
     </div>
 
   </div>
-  <hr>
-  <br>
-  <br>
+
   <footer id="footer">
-    <div id="copyright">
-      &copy; 2022 commlab
+    <div class="main-content">
+      <div id="copyright">
+        &copy; 2022 commlab NYUAD
+        <a href="#header">
+          <b>Go to Top</b>
+        </a>
+      </div>
+
     </div>
-    <br />
-    <a href="#header"><b>Go to Top</b></a>
   </footer>
-  <br>
+
 </body>
 
 </html>
